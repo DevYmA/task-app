@@ -24,7 +24,7 @@ public class TaskServiceImpl implements TaskService{
 	@Override
 	public List<Task> findAll() {
 		List<Task> tasks = new ArrayList<>();
-		for(Task task:taskRepository.findAll()){
+		for(Task task:taskRepository.findAllByOrderByIdAsc()){
 			tasks.add(task);
 		}
 		return tasks;
