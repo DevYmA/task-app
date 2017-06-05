@@ -39,6 +39,7 @@
 			<div class="container">
 				<div class="jumbotron text-center">
 					<h1>Welcome to Task App !</h1><br>
+					<hr>
 					<h1>:)</h1>
 				</div>
 			</div>
